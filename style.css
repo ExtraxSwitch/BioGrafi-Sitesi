@@ -1,0 +1,302 @@
+:root{
+  /** Yazi renkleri **/
+  --baslikrenk : #5B64EF;
+  --aciklamarenk : #AEAEAE;
+  --aciktemaciklama : #a5a5a5;
+  --aciktemabaslik : black;
+  /**arka planlar**/
+  --arkaplan : #181818;
+  --menurenk : #23272a;
+  /**button**/
+  --butonborder : #ff5349;
+  /**footer**/
+  --footerarkaplan : #131313;
+  --sosyal: #181818;
+  /**Footer sosyal medialar**/
+  --facebook: #3b5998;
+  --twitter: #1faee9;
+  --github: #79ff65;
+  --linkedin: #2867B2;
+  --youtube: #c4302b;
+  --instagram1: #fffd8c;
+  --up: #ffdbfe;
+  --instagram3:#833AB4;
+  --instagram4:#C13584;
+  --instagram5:#E1306C;
+  --instagram6: #FD1D1D;
+  --instagram7:#F56040;
+  --instagram8: #F77737;
+  --instagram9:#FCAF45;
+  --instagram10:#FFDC80;
+  /**Footer sosyal medialar RGB**/
+  --twitterrgb:68, 204, 246;
+  --facebookrgb:59, 89, 152;
+  --linkedinrgb: 0, 119, 39;
+  --githubrgb: 47, 100, 93;
+  --youtubergb: 230, 33, 23;
+  --instagramrgb: 100, 99, 55;
+  --uprgb: 100, 85, 99;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background: #303136;
+  background-size: 1480px;
+}
+/**============================[  #9 footer  ]============================**/
+/**                            #1 Ana tasarım                             **/
+/**                            #2 Linkler                                 **/
+/**                            #3 Sosyal medialar                         **/
+/**                            #4 Animasyon                               **/
+/**                            #5 Media                                   **/
+/**============================[Footer harita]============================**/
+/**  NOT :                                                                **/
+/**   MEDİALARI ELLEMENİZ SİTE DÜZENİNİ BOZABİLİR.                        **/
+/**   EĞER BİR BİLGİNİZ YOK İSE MEDİA HAKKINDA BANA SORABİLİR             **/
+/**   BENDEN YARDIM ALABİLİR YA DA ELLEMEYEBİLİRSİNİZ.                    **/
+/**============================[Footer #1]============================**/
+/**                            ANA TASARIM                            **/
+/**============================[---------]============================**/
+.footer-distributed {
+  background-color: var(--footerarkaplan);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: normal 16px sans-serif;
+  padding: 45px 50px;
+}
+.footer-distributed .footer-left p {
+  color: #8f9296;
+  font-size: 14px;
+  margin: 0;
+}
+/**============================[Footer #2]============================**/
+/**                              Linkler                              **/
+/**============================[---------]============================**/
+.footer-distributed p.footer-links {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0 0 10px;
+  padding: 0;
+  transition: ease .25s;
+}
+.footer-distributed p.footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+  transition: ease .25s;
+}
+.footer-distributed .footer-links a:before {
+  content: "·";
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+.footer-distributed .footer-right {
+  float: right;
+  margin-top: 6px;
+  max-width: 180px;
+}
+.footer-distributed .footer-right a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: var(--sosyal);
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-left: 3px;
+  transition:all .25s;
+  margin-bottom: 6px;
+}
+/**============================[Footer #3]============================**/
+/**                          Sosyal medyalar                          **/
+/**============================[---------]============================**/
+#facebook:hover{
+background-color:var(--facebook);
+color: #cadcff;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(var(--facebookrgb));
+   -moz-box-shadow:    0px 0px 10px 0px rgba(var(--facebookrgb));
+   box-shadow:         0px 0px 10px 0px rgba(var(--facebookrgb));
+}
+#twitter:hover{
+  background-color:var(--twitter);
+  color: #0c749f;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(var(--twitterrgb));
+   -moz-box-shadow:    0px 0px 10px 0px rgba(var(--twitterrgb));
+   box-shadow:         0px 0px 10px 0px rgba(var(--twitterrgb));
+}
+#github:hover{
+  background-color:var(--github);
+  color: #2c951c;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(var(--githubrgb));
+   -moz-box-shadow:    0px 0px 10px 0px rgba(var(--githubrgb));
+   box-shadow:         0px 0px 10px 0px rgba(var(--githubrgb));
+}
+#linkedin:hover{
+  background-color:var(--linkedin);
+   -webkit-box-shadow: 0px 0px 10px 0px rgba(var(--linkedinrgb));
+   -moz-box-shadow:    0px 0px 10px 0px rgba(var(--linkedinrgb));
+   box-shadow:         0px 0px 10px 0px rgba(var(--linkedinrgb));
+}
+
+#youtube:hover{
+  background-color:var(--youtube);
+  color: #fbaba9;
+ -webkit-box-shadow: 0px 0px 10px 0px rgba(var(--youtubergb));
+   -moz-box-shadow:    0px 0px 10px 0px rgba(var(--youtubergb));
+   box-shadow:         0px 0px 10px 0px rgba(var(--youtubergb));
+}
+#instagram:hover{
+ background-color: var(--instagram1);
+ color: #8f8004;
+  webkit-box-shadow: 0px 0px 10px 0px rgba(var(--instagramrgb));
+   -moz-box-shadow:    0px 0px 10px 0px rgba(var(--instagramrgb));
+   box-shadow:         0px 0px 10px 0px rgba(var(--instagramrgb));
+}
+#up:hover{
+ background-color: var(--up);
+ color: #9B658B;
+  webkit-box-shadow: 0px 0px 10px 0px rgba(var(--uprgb));
+   -moz-box-shadow:    0px 0px 10px 0px rgba(var(--uprgb));
+   box-shadow:         0px 0px 10px 0px rgba(var(--uprgb));
+}
+/**============================[Footer #4]============================**/
+/**                             Animasyon                             **/
+/**============================[---------]============================**/
+.footer-distributed .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
+.footer-distributed p.footer-links a:hover{text-decoration:underline;}
+/**============================[Footer #5]============================**/
+/**                               Media                               **/
+/**============================[---------]============================**/
+@media (max-width: 600px) {
+  .footer-distributed .footer-left, .footer-distributed .footer-right {
+    text-align: center;
+  }
+  .footer-distributed .footer-right {
+    float: none;
+    margin: 0 auto 20px;
+  }
+  .footer-distributed .footer-left p.footer-links {
+    line-height: 1.8;
+  }
+}
+.yukarı{
+  float: auto;
+  margin-top: 6px;
+  max-width: 180px;
+  color:#9B658B;
+  border-radius: 60%;
+padding: auto;
+text-align: center;
+margin: auto;
+color: #FFDBFE;
+font-family: sans-serif;
+}
+.yukarı a{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: var(--sosyal);
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-left: 3px;
+  transition:all .25s;
+  margin-bottom: 6px;
+}
+/**border-radius: 7%;
+  margin-top:5px;
+  padding: 40px;
+  width:450px;
+  height:auto;
+  text-align: center;
+  background-color: #23272A;
+  font-family: arial;
+  color: #ffdbfe;**/
+.center{
+  border-radius: 10%;
+  width: 450px;
+  background-color: #23272A;
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  color: #FFDBFE;
+  font-family: sans-serif;
+
+}
+.center h3{
+  text-align: left;
+}
+.center a{
+  text-align: left;
+  background-color:#2f353b;
+}
+.center a:hover{
+  text-align: left;
+  background-color:#191b1f;
+}
+.center img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+}
+.content h1{
+  font-size: 50px;
+  letter-spacing: 5px;
+  font-weight: 100;
+}
+.content h2{
+  font-size: 30px;
+  font-weight: 100;
+  letter-spacing: 4px;
+}
+.content p{
+  text-align: justify;
+  letter-spacing: 1px;
+}
+
+.content h3{
+font-weight: 100;
+font-size: 20px;
+letter-spacing: 1px;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+.gif{
+background: url(cadde.gif) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+text-align: center;
+width: 100%;
+height: 360px;
+margin-top:auto;
+margin-left:auto;
+margin-right:auto;
+color: #ffdbfe;
+font-family: 'Anton', sans-serif;
+}
+.gif h1{
+  font-size: 80px;
+}
